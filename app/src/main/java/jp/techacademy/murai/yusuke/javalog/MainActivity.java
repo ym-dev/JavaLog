@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 //課題１
-        Human human = new Human("ワイエム", 12, "スキー");
+        Human human = new Human("ワイエム", 40, "ランニング");
 
         human.say();
 
