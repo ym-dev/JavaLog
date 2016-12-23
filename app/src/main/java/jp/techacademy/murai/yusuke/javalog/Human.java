@@ -9,7 +9,7 @@ import android.util.Log;
 class Human extends Animal implements Thinkable{
 
     //メンバ変数
-    String hobby;
+    String hobby;   //★ここで宣言であってる？Animal class内で定義すべき？？
 
     //コンストラクタ
     public Human(String name, int age, String hobby){
